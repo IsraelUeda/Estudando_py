@@ -47,6 +47,8 @@ ao invez de colocarmos no inicio do arquivos colocamos somente onde vamos usar, 
 
 A partir do python 3,7 n é mais necessario importar a biblioteca pdb, agr é build-in, chamada breakpoint
 
+
+"""
 #exemplo 3
 
 nome = "israel"
@@ -59,5 +61,3 @@ final = nome_completo + " faz o curso " + curso
 #obs cuidado com conflitos entre nomes de variveis e comandos do pdb
 
 #Não coloque nomes não representativos na variavel
-"""
-
