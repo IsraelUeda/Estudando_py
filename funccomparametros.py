@@ -108,8 +108,8 @@ def soma_impares(numeros):
             total = total + num
     return total
 
-lista = [1, 2, 3, 4, 5, 6, 7]
+if __name__ == '__main__':
+    lista = [1, 2, 3, 4, 5, 6, 7]
 
-print (soma_impares(lista))
-
+    print (soma_impares(lista))
 #return finaliza a função e não terminara o codigo
