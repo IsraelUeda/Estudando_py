@@ -28,5 +28,5 @@ from funccomparametros import soma_impares
 
 print(soma_impares([1,2,3,4,5,6,7,8]))
 """
-import primeirp
-import segundo
+import aulas.módulos.primeirp as primeirp
+import aulas.módulos.segundo as segundo

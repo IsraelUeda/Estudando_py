@@ -1,4 +1,4 @@
-import primeirp
+import aulas.módulos.primeirp as primeirp
 
 def funcao2():
     primeirp.funcao1()
