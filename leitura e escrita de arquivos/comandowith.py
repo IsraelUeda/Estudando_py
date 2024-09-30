@@ -6,7 +6,7 @@ Passos para se trabalhar com arquvios
 3 fechamos o arquivo 
     
 """
-
-with open('texto.txt') as arquivo:
+# o bloco with
+with open('teste.txt', 'r') as arquivo:
     print(arquivo.readlines())
 

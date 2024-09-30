@@ -1,3 +1,0 @@
-feist 10
-bolsa 17
-eletr 12
