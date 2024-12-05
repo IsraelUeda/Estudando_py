@@ -148,9 +148,9 @@ p2 = Produto("Arroz", "Mercearia", 32)
 
 #Criando um atributo dinâmico em tempo de execução
 
-p2.peso = "5 Kg" #note que na clkasse produto n existe o atributo peso
+#p2.peso = "5 Kg" #note que na clkasse produto n existe o atributo peso
 
-print(f'Produto: {p2.nome}\nDescrição: {p2.descricao}\nValor: {p2.valor}\nPeso: {p2.peso}')
+#print(f'Produto: {p2.nome}\nDescrição: {p2.descricao}\nValor: {p2.valor}\nPeso: {p2.peso}')
 
 # Deletando Atributos
 
@@ -159,6 +159,6 @@ print(p2.__dict__)
 
 #print(Produto.__dict__)
 
-del p2.peso
+#del p2.peso
 
 print(p2.__dict__)
